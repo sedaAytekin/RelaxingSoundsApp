@@ -135,7 +135,7 @@ public class LibraryDetailActivity extends AppCompatActivity {
                     if (resultCode == 0) {// Sonuç başarılı değil ise
                         AlertDialog alertDialog = new AlertDialog.Builder(LibraryDetailActivity.this).create();
                         alertDialog.setTitle("Kitaplık müzikleri çekilemedi.");
-                        alertDialog.setMessage("Kitaplık Sayfasına Yönlendiriliceksiniz."); //Sonuc mesajıyla bilgilendiriyoruz.
+                        alertDialog.setMessage("Üzgünüm."); //Sonuc mesajıyla bilgilendiriyoruz.
                         alertDialog.setCancelable(false);
                         alertDialog.setButton(RESULT_OK, "Tamam", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {

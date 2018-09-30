@@ -142,7 +142,7 @@ public class FavoritesFragment extends Fragment {
                     if (resultCode == 0) {// Sonuç başarılı değil ise
                         AlertDialog alertDialog = new AlertDialog.Builder(getActivity()).create();
                         alertDialog.setTitle("Favori müzikleriniz Çekilemedi.");
-                        alertDialog.setMessage("Kitaplık Sayfasına Yönlendiriliceksiniz."); //Sonuc mesajıyla bilgilendiriyoruz.
+                        alertDialog.setMessage("Üzgünüm."); //Sonuc mesajıyla bilgilendiriyoruz.
                         alertDialog.setCancelable(false);
                         alertDialog.setButton(RESULT_OK, "Tamam", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
