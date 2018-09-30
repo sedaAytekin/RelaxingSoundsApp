@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="21dp"
+            android:text="Kuş"
+            android:textColor="@android:color/white" />
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            app:dsb_indicatorColor="@color/colorPrimaryDark"
+            app:dsb_indicatorPopupEnabled="false"
+            app:dsb_max="100dp"
+            app:dsb_min="0dp"
+            app:dsb_progressColor="@color/colorPrimary"
+            app:dsb_trackColor="@color/white"
+            app:dsb_value="50dp" />
+
+
+        <ImageView
+            android:id="@+id/playBT"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/seekBar"
+            android:layout_marginEnd="21dp"
+            android:src="@drawable/ic_play_button"
+             />
+
+        <ImageView
+            android:id="@+id/favoriteIV"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignStart="@+id/playBT"
+            android:layout_alignTop="@+id/name"
+            android:layout_weight="1"
+            android:src="@drawable/ic_favorite" />
+    </RelativeLayout>
+
+</LinearLayout>

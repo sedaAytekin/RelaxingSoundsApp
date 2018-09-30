@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RelaxingSoundsApp</string>
+    <string name="title_home">Home</string>
+    <string name="bottom_menu_favorites">Favorilerim</string>
+    <string name="bottom_menu_library">Kitaplık</string>
+    <string name="no_category">Böyle bir kategori yok.</string>
+    <string name="favori_url">http://bilencikmadi.yedi24.net/Seda/</string>
+</resources>
